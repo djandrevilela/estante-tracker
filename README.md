@@ -37,7 +37,7 @@ Estante é uma PWA gratuita e de código aberto para descobrir séries de BD, co
 
 ## 🚀 Usar
 
-A versão publicada fica em: `https://djandrevilela.github.io/estante-tracker/`
+A versão publicada fica em: `https://SEU-UTILIZADOR.github.io/estante-tracker/`
 
 No telemóvel: abre o link → menu do browser → **"Adicionar ao ecrã principal"**. A partir daí funciona como qualquer app instalada, incluindo offline para o que já tens guardado.
 
