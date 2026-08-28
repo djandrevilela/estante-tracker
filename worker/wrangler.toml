@@ -1,0 +1,19 @@
+name = "estante-proxy"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Cria o namespace com: wrangler kv namespace create ESTANTE_KV
+# e cola o "id" devolvido aqui em baixo.
+kv_namespaces = [
+  { binding = "ESTANTE_KV", id = "COLA_AQUI_O_ID_DO_NAMESPACE" }
+]
+
+# Segredos (nunca ficam neste ficheiro nem no repo — define-os com:
+#   wrangler secret put MARVEL_PUBLIC_KEY
+#   wrangler secret put MARVEL_PRIVATE_KEY
+#   wrangler secret put COMICVINE_API_KEY
+#   wrangler secret put VAPID_PUBLIC_KEY
+#   wrangler secret put VAPID_PRIVATE_KEY
+#   wrangler secret put VAPID_SUBJECT      (ex: "mailto:tu@example.com")
+#   wrangler secret put CRON_SECRET        (uma password aleatória tua)
